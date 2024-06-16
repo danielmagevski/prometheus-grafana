@@ -13,22 +13,12 @@ Acesse o endereço `http://localhost:9090` no navegador para acessar o *Promethe
 
 ![Prometheus](./images/prometheus.png)
 
-### s
+### Dashboard
 
 Exemplo de Dashboard criado
 
 ![Dash](./images/dash.png)
 
-Estrutura:
-```
-.
-├── compose.yaml
-├── grafana
-│   └── datasource.yml
-├── prometheus
-│   └── prometheus.yml
-└── README.md
-```
 
 ```
 $ docker compose up -d
